@@ -1,0 +1,30 @@
+{
+  "name": "Learn_DesignSystem",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/Jinsoo1004/Learn_DesignSystem.git",
+  "author": "Jinsoo1004 <kmjoplopl@gmail.com>",
+  "license": "MIT",
+  "dependencies": {
+    "@babel/core": "^7.23.6",
+    "typescript": "^4.9.5"
+  },
+  "devDependencies": {
+    "@storybook/addon-essentials": "^7.6.5",
+    "@storybook/addon-interactions": "^7.6.5",
+    "@storybook/addon-links": "^7.6.5",
+    "@storybook/addon-onboarding": "^1.0.10",
+    "@storybook/blocks": "^7.6.5",
+    "@storybook/react": "^7.6.5",
+    "@storybook/react-vite": "^7.6.5",
+    "@storybook/test": "^7.6.5",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "storybook": "^7.6.5",
+    "vite": "^5.0.10"
+  },
+  "scripts": {
+    "storybook": "storybook dev -p 6006",
+    "build-storybook": "storybook build"
+  }
+}
